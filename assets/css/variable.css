@@ -1,0 +1,17 @@
+:root {
+  /* COLORS */
+  --colorMain: #1090cb;
+  --colorBlack: #000000;
+  --colorWhite: #ffffff;
+  --colorMiddle: #1090cb 10%;
+  --colorEllipse: #08d3bb;
+  --colorDesc: #5c5c5c;
+  --colorGray: #969696;
+  --colorCodexDesc: #868686;
+  --colorCodexHeader: #252525;
+  --colorKodexDesc2: #545454;
+  --colorFocusImg: #9208d3;
+
+  /* FONTS */
+  --fontMain: "Poppins", sans-serif;
+}
