@@ -37,16 +37,20 @@ header {
 }
 
 .home {
-  color: var(--colorMain);
   /* Base */
   /* font-family: var(--fontMain); */
+  color: #000;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
-.home::before {
+.active {
+  color: var(--colorMain);
+}
+
+.active::before {
   width: 8px;
   height: 8px;
   background-color: var(--colorEllipse);
@@ -316,7 +320,7 @@ span {
   font-weight: 400;
   line-height: 175%; /* 31.5px */
 }
-/*kodex  */
+/*    KODEX   */
 .kodex {
   padding-left: 123px;
   padding-right: 65px;
@@ -386,7 +390,6 @@ span {
 .daisy-span,
 .focus-span {
   color: var(--colorMain);
-  font-family: Poppins;
   font-size: 30px;
   font-style: normal;
   font-weight: 600;
@@ -422,13 +425,33 @@ span {
   font-weight: 400;
   line-height: 170%; /* 27.2px */
 }
-/* daisy */
+/* ELLIPSE 3 */
+.kodex-right {
+  position: relative;
+}
+.ellipse-3 {
+  position: absolute;
+  top: 20px;
+  left: 586px;
+}
+
+/* DAISY */
 
 .daisy {
   padding-right: 129px;
   padding-left: 81px;
   display: flex;
   gap: 114px;
+}
+
+.daisy-imgs {
+  position: relative;
+}
+.ellipse-4 {
+  position: absolute;
+  top: 0;
+  right: 190px;
+  z-index: -1;
 }
 
 .daisy-card-img {
@@ -446,7 +469,7 @@ span {
   padding-top: 86px;
 }
 
-/* focus */
+/* FOCUS */
 .focus {
   padding-left: 123px;
   padding-right: 123px;
@@ -464,11 +487,18 @@ span {
   justify-content: center;
   align-items: center;
 }
-.focus-card-img {
-}
 
 .focus-left {
   padding-top: 95px;
+}
+
+/* ELLIPSE 3.2 */
+
+.ellipse-3-2 {
+  position: absolute;
+  top: 2600px;
+  right: 2px;
+  z-index: -1;
 }
 
 /* rectangles */
@@ -547,6 +577,7 @@ span {
   align-items: center;
   justify-content: center;
   gap: 36px;
+  position: relative;
 }
 
 .rectangle2-header {
@@ -591,4 +622,284 @@ span {
   position: absolute;
   top: 3250px;
   right: 140px;
+  z-index: 1;
+}
+
+/*  */
+
+.ellipse-4-2 {
+  position: absolute;
+  top: 180px;
+  left: 260px;
+  z-index: -1;
+}
+
+/* COMPANIES */
+.companies {
+  background: var(--colorWhite);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+  padding-top: 184px;
+}
+
+.companies-header {
+  color: var(--colorBlack);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 159%; /* 38.16px */
+}
+
+.companies-images {
+  display: flex;
+  gap: 115px;
+}
+
+/* FOOTER */
+
+.star {
+  position: absolute;
+  top: 0;
+  left: 140px;
+  top: -46px;
+}
+
+.pai_chart1 {
+  position: absolute;
+  top: 100px;
+  left: 1000px;
+}
+.email {
+  width: 100%;
+  height: 534px;
+  flex-shrink: 0;
+  background: var(--colorLightBlue);
+  position: relative;
+}
+
+.email-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 148px;
+  padding-bottom: 148px;
+  gap: 80px;
+}
+
+.email-header {
+  width: 516px;
+  height: 91px;
+  flex-shrink: 0;
+  color: var(--colorCodexHeader);
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 170%; /* 51px */
+}
+
+.email-input {
+  width: 532px;
+  height: 67px;
+  flex-shrink: 0;
+  display: flex;
+
+  border-radius: 10px;
+  background: var(--colorWhite);
+  box-shadow: 0px 4px 84px 0px rgba(0, 0, 0, 0.07);
+}
+
+.email-button {
+  width: 173px;
+  height: 67px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 10px;
+  background: var(--colorBlack);
+
+  color: var(--colorEmailButton);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%; /* 27.2px */
+}
+
+.email-desc {
+  display: flex;
+  gap: 14px;
+}
+/* FOOTER ICONS*/
+.footer-icons {
+  display: flex;
+  gap: 78px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 87px;
+  padding-bottom: 53px;
+}
+.footer-icons-part1-header {
+  color: var(--colorBlue29);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 27px;
+}
+
+.footer-icons-part1-desc {
+  width: 372px;
+  height: 58px;
+  flex-shrink: 0;
+
+  color: var(--colorGray51);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 25px;
+}
+
+.footer-icons-part1-desc2 {
+  width: 196px;
+  height: 23px;
+  flex-shrink: 0;
+
+  color: var(--colorGray51);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* FOOTER PART 2 */
+.footer-part2 {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-part2-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  width: 372px;
+  height: 117px;
+  flex-shrink: 0;
+
+  color: var(--colorGray51);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 186.3%; /* 29.808px */
+}
+
+.footer-part2-header {
+  color: var(--colorBlack);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer-part2-desc {
+  width: 25%;
+  height: 117px;
+  flex-shrink: 0;
+
+  color: var(--colorGray51);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 186.3%; /* 29.808px */
+}
+/* FOOTER PART 3 */
+.footer-part3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.footer-part3-header {
+  color: var(--colorBlack);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer-part3-desc {
+  width: 282px;
+  height: 76px;
+  flex-shrink: 0;
+
+  color: var(--colorGray51);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-part3-phnum {
+  width: 141px;
+  height: 28px;
+  flex-shrink: 0;
+
+  color: var(--colorGray51);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* social */
+.social-desc {
+  display: flex;
+  gap: 200px;
+}
+.fb,
+.insta,
+.twitter,
+.linkedin {
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+  background: vare(--colorWhite);
+  border-radius: 16px;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social {
+  display: flex;
+  gap: 16px;
+}
+/* border */
+.footer-border-bottom {
+  width: 1440.001px;
+  height: 0.8px;
+  background: var(--colorFooterBorder);
+}
+
+/* footer end */
+
+.footer-end {
+  color: var(--colorGray68);
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 190.6%; /* 24.778px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 27px;
+  padding-bottom: 29px;
 }
