@@ -1,0 +1,106 @@
+@import url(./reset.css);
+
+@import url("./variable.css");
+
+body {
+  font-family: var(--fontMain);
+}
+
+/* HEADER */
+
+.name {
+  color: var(--colorMain);
+  /* font-family: var(--fontMain); */
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 31px;
+  padding-bottom: 27px;
+  padding-left: 32px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 625px;
+  /* position: fixed;
+    z-index: 1; */
+  border-bottom: 2px solid #c4c4c4;
+}
+
+.pages {
+  display: flex;
+  gap: 167px;
+}
+
+.lists {
+  display: flex;
+  gap: 71px;
+  padding-top: 40px;
+  padding-bottom: 38px;
+}
+
+.home {
+  /* Base */
+  /* font-family: var(--fontMain); */
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.aboutUs,
+.services {
+  color: var(--colorBlack);
+  /* Base */
+  /* font-family: var(--fontMain); */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.active {
+  color: var(--colorMain);
+}
+
+.links ul li {
+  position: relative;
+}
+
+.active::after {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #08d3bb;
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 0;
+}
+
+.contactUs {
+  width: 125px;
+  height: 41px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: var(--colorMain);
+  /* text-align: center; */
+
+  color: var(--colorWhite);
+  /* font-family: var(--fontMain); */
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin-top: 32px;
+  margin-bottom: 29px;
+  margin-right: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
