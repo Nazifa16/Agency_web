@@ -21,11 +21,15 @@
   /*  */
   --color58: #585858;
   --colorF2: #fff2f2;
-  --colore2sky: #e2f3ff;
+  --color2sky: #e2f3ff;
   --colorf1mag: #f1e8ff;
   /* third part */
   --color69desc: #696969;
   --color79gray: #797979;
+  --colorArbg: #ffe7fb;
+  /* forth part */
+  --color77gray: #777;
+  --colorf5yellow: #f5f3da;
 
   /* FONTS */
   --fontMain: "Poppins", sans-serif;

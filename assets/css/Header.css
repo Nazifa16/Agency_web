@@ -24,8 +24,6 @@ header {
   display: flex;
   align-items: center;
   gap: 625px;
-  /* position: fixed;
-    z-index: 1; */
   border-bottom: 2px solid #c4c4c4;
 }
 
@@ -43,7 +41,6 @@ header {
 
 .home {
   /* Base */
-  /* font-family: var(--fontMain); */
   color: #000;
   font-size: 16px;
   font-style: normal;
@@ -54,8 +51,6 @@ header {
 .aboutUs,
 .services {
   color: var(--colorBlack);
-  /* Base */
-  /* font-family: var(--fontMain); */
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -90,7 +85,6 @@ header {
   /* text-align: center; */
 
   color: var(--colorWhite);
-  /* font-family: var(--fontMain); */
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
